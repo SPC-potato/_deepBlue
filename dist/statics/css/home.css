@@ -1,0 +1,88 @@
+.home .swiper-container {
+  width: 100%;
+}
+.home .swiper-container .swiper-wrapper {
+  width: 100%;
+}
+.home .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+.home .swiper-container .swiper-button-next {
+  right: 45px;
+  opacity: 0.3;
+}
+.home .swiper-container .swiper-button-prev {
+  left: 45px;
+  opacity: 0.3;
+}
+.home .prod-series {
+  overflow: hidden;
+  padding: 20px 0;
+}
+.home .prod-series .box-title {
+  text-align: center;
+}
+.home .prod-series .box-body {
+  overflow: hidden;
+}
+.home .prod-series .box-body .box-nav .nav-item {
+  width: 20%;
+  float: left;
+  background-color: #000;
+  margin-bottom: 16px;
+}
+.home .prod-series .box-body .box-nav .nav-item .nav-title {
+  width: 100%;
+  border-right: 1px solid #eee;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  opacity: 1;
+  line-height: 2.4;
+}
+.home .prod-series .box-body .box-nav .nav-item .nav-title.active {
+  opacity: 0.7;
+}
+.home .prod-series .box-body .box-nav .nav-item:last-child .nav-title {
+  border-color: transparent;
+}
+.home .prod-series .box-body .box-nav .nav-item:nth-child(5n) .nav-title {
+  border-color: transparent;
+}
+.home .prod-series .box-body .box-content .content-item {
+  display: none;
+}
+.home .prod-series .box-body .box-content .content-item.active {
+  display: block;
+}
+.home .prod-series .box-body .box-content .content-item .prod-features span {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  line-height: 2;
+  padding: 2px;
+  margin-right: 10px;
+}
+.home .prod-series .watch-footer {
+  border-top: 1px solid #eee;
+  padding: 30px 0 20px 0;
+}
+.home .prod-series .watch-other .watch-other-title {
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  font-size: 18px;
+}
+.home .prod-series .watch-other .watch-other-title:before,
+.home .prod-series .watch-other .watch-other-title:after {
+  content: '';
+  position: absolute; /*定位背景横线的位置*/
+  top: 50%;
+  left: 0;
+  background: #333 /*宽和高做出来的背景横线*/;
+  width: 40%;
+  height: 1px;
+}
+.home .prod-series .watch-other .watch-other-title:after {
+  left: 60%;
+}
